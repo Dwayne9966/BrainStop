@@ -11,6 +11,6 @@
       android:src="@drawable/welldone_470"
       android:padding="1dp"
       android:background="#FFFF30"
-      android:onClick="btn_smile"/>
+      android:onClick="btn_smile_2"/>
 
 </FrameLayout>

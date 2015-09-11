@@ -126,4 +126,55 @@ private MediaPlayer mp;
                 .addToBackStack(null)
                 .commit();
     }
+    public void btn_smile_2(View v){
+        FragmentManager fragmentManager  = getSupportFragmentManager();
+        Fragment fragmentK = new Number_3();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentK)
+                .addToBackStack(null)
+                .commit();
+    }
+/**
+ * Number 3_xml forwarding to the Smile and Frown
+ */
+
+public void btn_number_3(View v) {
+    FragmentManager fragmentManager = getSupportFragmentManager();
+    Fragment fragmentL = new Exercise_3();
+    fragmentManager.beginTransaction()
+            .replace(R.id.home_page, fragmentL)
+            .addToBackStack(null)
+            .commit();
 }
+    public void sound_three(View v){
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
+        mp = MediaPlayer.create(this, R.raw.three);
+        mp.start();
+    }
+/**
+ * Exercise 3 waar n keuse gemaak moet word.(Smile/Frown)
+ */
+public void two_ex(View v){
+    FragmentManager fragmentManager = getSupportFragmentManager();
+    Fragment fragmentM = new Smile();
+    fragmentManager.beginTransaction()
+            .replace(R.id.home_page,fragmentM)
+            .addToBackStack(null)
+            .commit();
+}
+
+public void zero_ex(View v){
+    FragmentManager fragmentManager = getSupportFragmentManager();
+    Fragment fragmentN = new Frown_2();
+    fragmentManager.beginTransaction()
+            .replace(R.id.home_page,fragmentN)
+            .addToBackStack(null)
+            .commit();
+}
+
+
+}
+
+
+
+
