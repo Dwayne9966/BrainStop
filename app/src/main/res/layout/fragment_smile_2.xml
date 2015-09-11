@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF30"
+    tools:context="com.example.dwayne.brainstop.Smile_2">
+
+<ImageButton
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:src="@drawable/welldone_470"
+    android:onClick="btn_smile_2"
+    android:background="#FFFF30"/>
+</FrameLayout>

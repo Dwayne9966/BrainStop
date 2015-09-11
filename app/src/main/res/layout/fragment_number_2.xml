@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF30"
+    android:padding="1dp"
+    tools:context="com.example.dwayne.brainstop.Number_2">
+
+    <ImageButton
+        android:padding="1dp"
+        android:onClick="sound_ten"
+        android:background="#FFFF30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audioxl"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="427dp"
+        android:text="10"
+        android:padding="1dp"
+        android:textSize="193sp"
+        android:background="#FFFF30"
+        android:onClick="btn_number_2"
+        android:layout_gravity="center_horizontal|top"/>
+
+</FrameLayout>

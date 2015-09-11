@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.dwayne.brainstop.Exercise_4">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="194sp"
+        android:padding="1dp"
+        android:textColor="#000000"
+        android:background="#FFFF30"
+        android:onClick="four_ex"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/button3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:padding="1dp"
+        android:id="@+id/button2"
+        android:textSize="194sp"
+        android:background="#FFFF30"
+        android:textColor="#000000"
+        android:onClick="oneex"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="left|center_vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show me five"
+        android:textColor="#000000"
+        android:textSize="42sp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/view2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:rotation="90"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/view2"
+        android:layout_below="@+id/button2"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="250dp"
+        android:rotation="90"
+        android:background="@android:color/darker_gray"
+        android:color="#000000"
+        android:id="@+id/view"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+
+</FrameLayout>

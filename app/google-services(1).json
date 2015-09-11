@@ -1,0 +1,14 @@
+
+
+
+{"project_info":{"project_id":"hybrid-ridge-106509",
+  "project_number":"675417766461",
+  "name":"Brainboosters"},"client":[{"client_info":
+{"client_id":"android:Edu","client_type":1,"android_client_info":
+{"package_name":"Edu"}},"oauth_client":[],"api_key":[],"services":
+{"analytics_service":{"status":2,"analytics_property":
+{"tracking_id":"UA-67406332-2"}},"cloud_messaging_service":
+{"status":1,"apns_config":[]},"appinvite_service":
+{"status":1,"other_platform_oauth_client":[]},
+  "google_signin_service":{"status":1},"ads_service":{"status":1}}}],
+  "client_info":[],"ARTIFACT_VERSION":"1"}

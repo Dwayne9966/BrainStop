@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFF30"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dwayne.brainstop.Frown_2">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/incorrect_470"
+        android:onClick="btn_frown_2"
+        android:padding="1dp"
+        android:background="#FFFF30" />
+
+</FrameLayout>
