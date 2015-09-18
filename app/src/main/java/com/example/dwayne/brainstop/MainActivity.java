@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.VelocityTrackerCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
 import android.app.Application;
 
 
@@ -21,8 +22,6 @@ private MediaPlayer mp;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
     public void btn_play(View view) {
         FragmentManager fragmentManager = getSupportFragmentManager();
@@ -116,8 +115,7 @@ private MediaPlayer mp;
         fragmentManager.beginTransaction()
                 .replace(R.id.home_page,fragmentI)
                 .addToBackStack(null)
-                .commit();
-    }
+                .commit();}
     public void btn_frown_2(View v){
         FragmentManager fragmentManager = getSupportFragmentManager();
         Fragment fragmentJ = new Exercise_2();
@@ -137,7 +135,6 @@ private MediaPlayer mp;
 /**
  * Number 3_xml forwarding to the Smile and Frown
  */
-
 public void btn_number_3(View v) {
     FragmentManager fragmentManager = getSupportFragmentManager();
     Fragment fragmentL = new Exercise_3();
@@ -156,24 +153,108 @@ public void btn_number_3(View v) {
  */
 public void two_ex(View v){
     FragmentManager fragmentManager = getSupportFragmentManager();
-    Fragment fragmentM = new Smile();
+    Fragment fragmentM = new Smile_3();
     fragmentManager.beginTransaction()
             .replace(R.id.home_page,fragmentM)
             .addToBackStack(null)
             .commit();
 }
-
 public void zero_ex(View v){
     FragmentManager fragmentManager = getSupportFragmentManager();
-    Fragment fragmentN = new Frown_2();
+    Fragment fragmentN = new Frown_3();
     fragmentManager.beginTransaction()
             .replace(R.id.home_page,fragmentN)
             .addToBackStack(null)
             .commit();
 }
+    public void btn_frown_3(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentO = new Exercise_3();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page, fragmentO)
+                .addToBackStack(null)
+                .commit();
+    }
 
+    public void btn_smile_3(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentP = new Exercise_4();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentP)
+                .addToBackStack(null)
+                .commit();
+    }
+    public void btn_number_six(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentR = new Frown_4();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentR)
+                .addToBackStack(null)
+                .commit();
+    }
+    public void btn_frown_4(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentS = new Exercise_4();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentS)
+                .addToBackStack(null)
+                .commit();
+    }
+    public void btn_nmbr_five(View v){
+     FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentT = new Smile_4();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentT)
+                .addToBackStack(null)
+                .commit();
+    }
+    public void btn_smile_4(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+       Fragment fragmentU = new Exercise_5();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentU)
+                .addToBackStack(null)
+                .commit();
+    }
+    /*
+    * Exercise 5
+    * */
+    public void btn_one_ex(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentW = new Frown_5();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentW)
+                .addToBackStack(null)
+                .commit();
+    }
+    public void btn_seven(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentX = new Smile_5();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentX)
+                .addToBackStack(null)
+                .commit();
+    }
+    public void btn_frown_5(View v){
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment fragmentY = new Exercise_5();
+        fragmentManager.beginTransaction()
+                .replace(R.id.home_page,fragmentY)
+                .addToBackStack(null)
+                .commit();
+    }
+public void btn_smile_5(View v){
+    FragmentManager fragmentManager = getSupportFragmentManager();
+    Fragment fragmentV = new Main_Celebration();
+    fragmentManager.beginTransaction()
+            .replace(R.id.home_page,fragmentV)
+            .addToBackStack(null)
+            .commit();
+}
 
 }
+
+
 
 
 

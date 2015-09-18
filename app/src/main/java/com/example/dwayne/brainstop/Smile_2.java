@@ -15,7 +15,6 @@ public class Smile_2 extends Fragment {
         //Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_smile_2, container, false);
     }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

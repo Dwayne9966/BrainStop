@@ -1,7 +1,25 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context="com.example.dwayne.brainstop.Number_6">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dwayne.brainstop.Number_6">
 
-
+    <ImageButton
+        android:padding="1dp"
+        android:onClick="sound_eight"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audiolarge"
+        android:layout_gravity="center_horizontal|bottom"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="446dp"
+        android:text="8"
+        android:padding="1dp"
+        android:textSize="193sp"
+        android:background="#FFFF30"
+        android:onClick="btn_number_3"
+        android:layout_gravity="center_horizontal|top"/>
 
 </FrameLayout>
